@@ -1,5 +1,5 @@
 # fasta_rev_comp
-A simple tool that takes fasta files and can produce reverse and complementary strands.
+A simple tool that takes fasta files and can produce reverse, complementary, reverse-complementary, or RNA transcript strands.
 Can be executed like so to create a new fasta file: 
 
 ```
@@ -13,3 +13,4 @@ iupac.py is there to define the corresponding nucleotides, including unknown bas
 --revcomp produces the reverse and complementary strand
 --reverse reverses the sequence
 --complement produces the complementary sequence without reversing it
+--rna produces a transcript of the input sequence, that is to say it produces a reverse-complementary strand with T replaced with U.
